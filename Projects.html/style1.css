@@ -1,0 +1,42 @@
+
+
+form {
+    margin-bottom: 20px;
+}
+
+#task {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 50%;
+    background: #cf1313;
+}
+
+button {
+    width: 20%;
+    background-color: rgb(77, 18, 240);
+    color: aqua;
+    padding: 10px;
+    margin: 10px 0;
+    border: rosybrown;
+    cursor: pointer;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: rgb(35, 173, 207);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+}

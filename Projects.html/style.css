@@ -1,0 +1,46 @@
+#container {
+    width : 400px;
+    padding:30px 40px 20px 5px;
+    margin : 0 auto;
+    text-align: center;
+    background-color: bisque;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+#task {
+
+    width: 70%;
+    padding: 12px 20px;
+    margin : 8px 0;
+    box-sizing:border-box;
+}
+
+button {
+    width: 20%;
+    background-color:red;
+    color: aqua;
+    padding: 10px;
+    margin: 10px 0;
+    border: rosybrown;
+    cursor: pointer;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: rgba(35, 173, 207, 0.829);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width:70%;
+}
+
+.done {
+    text-decoration: line-through;
+}
