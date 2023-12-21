@@ -1,0 +1,81 @@
+<!-- We use the HTML description list to create a list where list items include terms and descriptions of the term. -->
+
+<!-- In HTML, we use the <dl> tag to create a description list. For example, -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Description List</h1>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+    <!-- Here, you can see two different types of list items: -->
+    
+    <!-- <dt> - defines the terms/name
+    <dd> - defines the description/value of the term/name
+        You can see the description list includes two related values, hence it can also be used to store items in key/value
+        pairs.
+    
+        Since the description list includes the definition of a term, it is also known as the definition list. -->
+
+        <!-- <h1>Multiple Terms and Multiple Definitions</h1> -->
+        <!-- As we have seen, the definition list is used to display data in a key/value format, where the <dt> tag indicates the keyelements and the<dd> tag element indicates the value (definition) of the key.
+        
+        However, while creating a description list, it's not necessary that a single
+        <dt> tag (key) should have a single<dd> tag (value). We can have any combination of the<dt> and<dd> elements. -->
+
+        <!-- Possible Combinations of terms and term descriptions:
+        
+        Single term (<dt>) with a single definition (<dd>).
+        Multiple terms (<dt>) with a single definition ( <dd>).
+        Multiple definitions (<dd>) with a single term (<dt>). -->
+
+        <h1>1. Single Term and Description</h1>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+        <!-- note:-Here, we can see a single term is followed by a single description. -->
+
+        <h1>2. Single Term and Multiple Description</h1>
+        <!-- Sometimes, we can come across data where there are multiple descriptors that fit the same term, like a product and its
+        features list.
+        
+        In such a case, rather than listing the product name multiple times before each feature, we can follow the single term<dt> with multiple feature/description<dd> to present it better. For example, -->
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language.</dd>
+            <dd>Used to create Websites.</dd>
+            <dd>Released in 1993.</dd>
+        </dl>
+        <!-- Here, we can see that the single term <dt>HTML</dt> is described by multiple definitions <dd></dd> -->
+
+        <h1>3. Multiple Term and Single Description</h1>
+        <!-- Sometimes, we come across data where multiple keys may have similar values. Like multiple programming languages can
+        feature the same feature sets.
+        
+        In such cases, rather than repeating the key/value pair, we can group several keys <dt> followed by a single description
+        <dd> such that the single description describes many terms, -->
+        <dl>
+            <dt>HTML</dt>
+            <dd>is markup language</dd>
+            <dt>Python</dt>
+            <dt>Java</dt>
+            <dd>are programming languages.</dd>
+        </dl>
+        <!-- Here, we can see that multiple terms <dt>Python</dt> and <dt>Java</dt> share the same description <dd>are programming
+        languages.</dd>. -->
+
+
+    
+</body>
+</html>

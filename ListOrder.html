@@ -1,0 +1,118 @@
+<!-- 1.We use the HTML ordered list to define a list where the sequence or order of the list items is important -->
+<!-- 2.We use the <ol> tag to create an unordered list -->
+<!-- 3.Each item of the list is enclosed inside the <li> tag and they are numbered by decimal numbers. -->
+
+<!-- 4.By default, ordered lists are ordered by numbers, however, we can change them as per our choice. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Order List</h1>
+    <ol>
+        <li>Name</li>
+        <li>Address</li>
+        <li>Phone Number</li>
+    </ol>
+
+    <!-- Start Attribute:-We use the start attribute to change the starting point for the numbering of the list. For example, -->
+   <!-- 1.. Here, we change the starting value of the list to 5. -->
+
+
+    <h1>Start Attribute</h1>
+    <ol start='5'>
+        <li>Harry</li>
+        <li>Ron</li>
+        <li>Sam</li>
+    </ol>
+
+   <!-- 2..his attribute also works with other types. For example, -->
+    <ol type="a" start='5'>
+        <li>Harry</li>
+        <li>Ron</li>
+        <li>Sam</li>
+    </ol>
+    Similarly, we can use the start attribute along with all other types.
+
+    <!-- 1..We can use the reversed attribute on the ordered list to reverse the numbering on the list. For example, -->
+    <!-- 2..Here, we can see the order of the list is reversed, the first list item is numbered 4 and the last is numbered 1. -->
+    <h1>Reversed Attribute</h1>
+    <ol reversed>
+        <li>Cat</li>
+        <li>Dog</li>
+        <li>Elephant</li>
+        <li>Fish</li>
+    </ol>
+
+    <!-- Similarly, the reversed attribute can also be used with other types and in conjunction with the start attribute. For example:- -->
+    <ol reversed type="I" start="10">
+        <li>Cat</li>
+        <li>Dog</li>
+        <li>Elephant</li>
+        <li>Fish</li>
+    </ol>
+    <!-- In the above example, we use the upper-case roman numeral type and start at 10 and reverse the order of the numbers. -->
+
+
+
+    <h1>Nesting Order List</h1>
+    <!-- In HTML, we can create a nested list by adding one list inside another. For example, -->
+    <ol type="I">
+        <li>
+            Chapter 1
+            <ol type="a">
+                <li>Lesson 1</li>
+                <li>Lesson 2</li>
+            </ol>
+        </li>
+        <li>
+            Chapter 2
+            <ol type="a">
+                <li>Lesson 1</li>
+                <li>Lesson 2</li>
+                <li>Lesson 3</li>
+            </ol>
+        </li>
+        <li>
+            Chapter 3
+            <ol type="a">
+                <li>Lesson 1</li>
+            </ol>
+        </li>
+    </ol>
+    <!-- In the above example, you can see we have added an ordered list inside another ordered list. -->
+    
+    <!-- In this case, the list item of the outer ordered list also includes an ordered list. -->
+
+
+    <h1>Order list inside unordered list</h1>
+
+    <!-- Similarly, we can also mix list types while nesting and add an unordered list inside the ordered list. For example, -->
+    <ol>
+        <li>
+            Prepare the ingredients.
+            <ul>
+                <li>Eggs</li>
+                <li>Salt</li>
+                <li>Butter</li>
+            </ul>
+        </li>
+        <li>
+            Mix the ingredients and cook on a low flame.
+        </li>
+        <li>
+            Serve hot with garnish. You can use
+            <ul>
+                <li>Chives</li>
+                <li>Bacon</li>
+                <li>Coriander</li>
+            </ul>
+        </li>
+    </ol>
+
+
+</body>
+</html>
